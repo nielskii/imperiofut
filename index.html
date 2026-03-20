@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Império FUT | Premium Football Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="Império FUT">
+            </div>
+            <nav class="desktop-nav">
+                <a href="#">Home</a>
+                <a href="#">Camisas</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Contato</a>
+            </nav>
+            <div class="header-right">
+                <button class="cart-trigger" onclick="toggleCart()">
+                    🛒 <span id="cart-count">3</span>
+                </button>
+                <a href="https://wa.me/5531993339900" class="btn-gold-header">Comprar no WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button onclick="toggleCart()" class="close-cart">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="./assets/img/1-Brasil.png" alt="Camisa">
+                <div class="cart-item-info">
+                    <p>Brazil Complete Brazil</p>
+                    <span>R$ 39,00</span>
+                </div>
+                <div class="qty">1x</div>
+            </div>
+            <div class="cart-item">
+                <img src="./assets/img/3-MilanRetrô.jpg" alt="Camisa">
+                <div class="cart-item-info">
+                    <p>Milan Retrô Classic</p>
+                    <span>R$ 39,00</span>
+                </div>
+                <div class="qty">1x</div>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="total">
+                <span>Total:</span>
+                <span>R$ 78,00</span>
+            </div>
+            <button class="btn-checkout">Finalizar Pedido no WhatsApp</button>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <h1 class="hero-title">Vista a Paixão<br><span class="gold-text">pelo Futebol</span></h1>
+                <p class="hero-subtitle">Camisas premium das maiores seleções e clubes</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn-hero-gold">Comprar pelo WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="product-grid">
+
+                <div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/Brasil RetroAmarela_11.jpg" alt="Brasil Retrô Amarela 11">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Retrô Amarela - nº 11</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/Brasil_2_.png" alt="Brasil Azul Celeste">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Azul Celeste - Treino</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/Brasil_3_.png" alt="Brasil Preta">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Seleção Brasileira - Black Edition</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/Brasil_4.png" alt="Brasil Azul Marinho">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Azul Marinho - Oficial</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/Brasil_5.png" alt="Brasil Preta Detalhes Verdes">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Black - Detalhes Neon</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/BrasilFeminina_e_Infantil.jpg" alt="Brasil Branca">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Branca - Feminina/Infantil</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/BrasilRetroAmarela_10.jpg" alt="Brasil Retrô 10">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Retrô Clássica - nº 10</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/BrasilRetroAzul_7.jpg" alt="Brasil Retrô Azul 7">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Retrô Azul - nº 7</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<div class="product-card">
+    <div class="product-img">
+        <img src="./assets/img/camisas_brasil/BrasilRetroAzul_9.jpg" alt="Brasil Retrô Azul 9">
+        <span class="heart-icon">💛</span>
+    </div>
+    <div class="product-info">
+        <h3>Brasil Retrô Azul - nº 9</h3>
+        <p class="price">R$ 39,00</p>
+        <div class="size-selector">
+            <button>P</button><button class="active">M</button><button>G</button><button>GG</button>
+        </div>
+        <div class="card-actions">
+            <button class="btn-cart">Adicionar ao Carrinho</button>
+            <a href="#" class="btn-wa-card">Comprar no WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container benefits-grid">
+            <div class="benefit-item">
+                <div class="icon-gold">🏆</div>
+                <h4>Qualidade Premium</h4>
+            </div>
+            <div class="benefit-item">
+                <div class="icon-gold">🚚</div>
+                <h4>Envio Rápido</h4>
+            </div>
+            <div class="benefit-item">
+                <div class="icon-gold">🌍</div>
+                <h4>Produto Importado</h4>
+            </div>
+            <div class="benefit-item">
+                <div class="icon-gold">🔒</div>
+                <h4>Compra Segura</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container testimonials-grid">
+            <div class="testimonial-card">
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/100?u=1" alt="User">
+                    <div>
+                        <h5>Name Paniois</h5>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p>"Sempre eu queria comprar com esse selo os mantos e que bom ter essa loja!"</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/100?u=2" alt="User">
+                    <div>
+                        <h5>Ntamdima</h5>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p>"Camisa é sensacional, a melhor que já comprei, entrega foi rápida!"</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/100?u=3" alt="User">
+                    <div>
+                        <h5>Aadio</h5>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p>"Sem dúvida a melhor loja de camisas de futebol do Brasil."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-copa">
+        <div class="container text-center">
+            <h2>Garanta sua camisa antes da Copa</h2>
+            <a href="#" class="btn-hero-gold">Comprar Agora no WhatsApp</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="./assets/img/logo.png" alt="Império FUT">
+            </div>
+            <div class="footer-info">
+                <p>📞 (31) 99333-9900</p>
+                <p>📸 @império_fut</p>
+            </div>
+            <div class="footer-legal">
+                <p>Copyright 2026 - Império FUT</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="whatsapp-float">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
+    </a>
+
+    <script>
+        function toggleCart() {
+            document.getElementById('cart-sidebar').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
